@@ -1,0 +1,114 @@
+body{
+  background: #eeeeee;
+  color: white;
+  -webkit-text-stroke: 0.1px blue;
+  font-size: 1.1rem;
+  height: 98vh;
+  margin-top: -3.8vh;
+
+}
+
+body h1{
+  text-align: center;
+  font-size: 3.2rem;
+  color: black;
+  -webkit-text-stroke: 0.5px #04009a;
+}
+
+body section h3{
+  color: white;
+  -webkit-text-stroke: 0.5px #c0fefc ;
+}
+
+
+section{
+  display: flex;
+  justify-content: space-around	;
+  width: auto;
+  height: 86vh;
+
+}
+section section{
+  display: inline-block;
+  font-size: 1.5rem;
+
+}
+#container li, #container2 li {
+  color: black;
+  -webkit-text-stroke: 0.1px blue;
+  background: white;
+  border-radius: 5px;
+  border: solid 1px black;
+  text-align: center;
+  list-style: none;
+  margin-bottom: 1px;
+  padding-left: 0px;
+  margin-left: 10%;
+  margin-right: 10%;
+
+}
+#container, #container2{
+  padding-left: 0px;
+}
+.star{
+    width: 40%;
+    background-image: url("https://i.imgur.com/oMnC1yT.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    border-radius: 8px;
+    border: solid white 4px;
+}
+.rick{
+  width: 40%;
+  background-image: url("https://i.imgur.com/zoRE9ZM.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  border-radius: 8px;
+  border: solid white 4px;
+}
+@media (max-width: 900px){
+
+  body h1{
+    margin-bottom: 3vh;
+  }
+
+  section{
+    padding: 10%;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
+
+  section section{
+        text-align: center;
+        border: solid white 3px;
+        border-radius: 10px;
+        margin: 3px;
+    }
+  .star{
+        width: -webkit-fill-available;
+      text-align: center;
+      background-position-y: center;
+      background-position: center;
+      height: 85vh;
+    }
+  .rick{
+        width: -webkit-fill-available;
+    text-align: center;
+    background-position-y: center;
+    background-position: center;
+    height: 85vh;
+  }
+}
+@media (max-width: 610px){
+  .star{
+    width: 90%;
+    height: 100vh;
+  }
+  .rick{
+    width: 90%;
+    height: 100vh;
+  }
+}
